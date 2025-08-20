@@ -1,0 +1,32 @@
+<resources>
+    <style name="Theme.RecipeExplorer" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="materialCardViewStyle">@style/Widget.RecipeExplorer.Card</item>
+        <item name="chipStyle">@style/Widget.RecipeExplorer.Chip</item>
+    </style>
+
+    <style name="Widget.RecipeExplorer.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <style name="Widget.RecipeExplorer.Chip" parent="Widget.MaterialComponents.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chipBg</item>
+        <item name="chipStrokeColor">@color/divider</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipIcon">@null</item>
+        <item name="checkedIconTint">@color/colorPrimary</item>
+        <item name="chipEndPadding">8dp</item>
+        <item name="chipStartPadding">8dp</item>
+    </style>
+</resources>

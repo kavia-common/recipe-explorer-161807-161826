@@ -1,0 +1,5 @@
+Declarative config set:
+- namespace = "com.recipe.explorer"
+- applicationId = "com.recipe.explorer"
+Dependencies include AndroidX material, lifecycle, recyclerview, coroutines.
+Room removed to avoid annotation processing in declarative DSL.

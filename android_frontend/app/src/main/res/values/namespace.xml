@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- This resource file exists to ensure the app module provides a values resource for merging early -->
+    <string name="__namespace_marker" translatable="false">com.recipe.explorer</string>
+</resources>

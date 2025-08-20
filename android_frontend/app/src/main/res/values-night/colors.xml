@@ -1,0 +1,5 @@
+<resources>
+    <!-- Slightly darker surfaces for night if needed; still light theme focus -->
+    <color name="surface">#121212</color>
+    <color name="onSurface">#FFFFFF</color>
+</resources>

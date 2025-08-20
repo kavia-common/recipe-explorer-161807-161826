@@ -1,0 +1,15 @@
+<resources>
+    <color name="colorPrimary">#388e3c</color>
+    <color name="colorPrimaryVariant">#2e7d32</color>
+    <color name="colorOnPrimary">#ffffff</color>
+
+    <color name="colorSecondary">#ffffff</color>
+    <color name="colorOnSecondary">#000000</color>
+
+    <color name="colorAccent">#ff7043</color>
+
+    <color name="surface">#ffffff</color>
+    <color name="onSurface">#222222</color>
+    <color name="divider">#e0e0e0</color>
+    <color name="chipBg">#F3F7F3</color>
+</resources>

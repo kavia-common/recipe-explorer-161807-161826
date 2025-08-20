@@ -1,0 +1,1 @@
+Applied declarative features { viewBinding = true } and declarative kapt { dependencies { implementation(...) } }. Removed unsupported plugins {} and android {} blocks to fix unresolved function call signatures in the declarative DSL.
